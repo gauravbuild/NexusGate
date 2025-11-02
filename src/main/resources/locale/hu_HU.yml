@@ -1,0 +1,5 @@
+plugin-enabled: "A NexusGate engedélyezve lett!"
+plugin-disabled: "A NexusGate letiltva lett!"
+database-initialized: "Adatbázis-kapcsolatkészlet inicializálva."
+table-created: "A(z) '%s' tábla létrehozva vagy már létezik."
+database-closed: "Adatbázis-kapcsolatkészlet lezárva."

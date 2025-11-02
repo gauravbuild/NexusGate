@@ -1,0 +1,5 @@
+plugin-enabled: "NexusGate etkinleştirildi!"
+plugin-disabled: "NexusGate devre dışı bırakıldı!"
+database-initialized: "Veritabanı bağlantı havuzu başlatıldı."
+table-created: "'%s' tablosu oluşturuldu veya zaten mevcut."
+database-closed: "Veritabanı bağlantı havuzu kapatıldı."

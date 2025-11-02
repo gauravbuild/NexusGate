@@ -1,0 +1,5 @@
+plugin-enabled: "تم تمكين NexusGate!"
+plugin-disabled: "تم تعطيل NexusGate!"
+database-initialized: "تم تهيئة تجمع اتصال قاعدة البيانات."
+table-created: "تم إنشاء الجدول '%s' أو أنه موجود بالفعل."
+database-closed: "تم إغلاق تجمع اتصال قاعدة البيانات."

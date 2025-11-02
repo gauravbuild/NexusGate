@@ -1,0 +1,5 @@
+plugin-enabled: "NexusGateが有効になりました！"
+plugin-disabled: "NexusGateが無効になりました！"
+database-initialized: "データベース接続プールが初期化されました。"
+table-created: "テーブル '%s' が作成されたか、既に存在します。"
+database-closed: "データベース接続プールが閉じられました。"

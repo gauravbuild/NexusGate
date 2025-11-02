@@ -1,0 +1,5 @@
+plugin-enabled: "NexusGate on otettu käyttöön!"
+plugin-disabled: "NexusGate on poistettu käytöstä!"
+database-initialized: "Tietokantayhteyspooli alustettu."
+table-created: "Taulu '%s' luotu tai on jo olemassa."
+database-closed: "Tietokantayhteyspooli suljettu."

@@ -1,0 +1,5 @@
+plugin-enabled: "NexusGate è stato abilitato!"
+plugin-disabled: "NexusGate è stato disabilitato!"
+database-initialized: "Pool di connessioni al database inizializzato."
+table-created: "La tabella '%s' è stata creata o esiste già."
+database-closed: "Pool di connessioni al database chiuso."

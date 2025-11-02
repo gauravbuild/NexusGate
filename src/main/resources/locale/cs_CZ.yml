@@ -1,0 +1,5 @@
+plugin-enabled: "NexusGate byl povolen!"
+plugin-disabled: "NexusGate byl zakázán!"
+database-initialized: "Inicializován fond databázových připojení."
+table-created: "Tabulka '%s' byla vytvořena nebo již existuje."
+database-closed: "Fond databázových připojení byl uzavřen."

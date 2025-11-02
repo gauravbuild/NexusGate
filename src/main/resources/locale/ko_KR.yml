@@ -1,0 +1,5 @@
+plugin-enabled: "NexusGate가 활성화되었습니다!"
+plugin-disabled: "NexusGate가 비활성화되었습니다!"
+database-initialized: "데이터베이스 연결 풀이 초기화되었습니다."
+table-created: "테이블 '%s'이(가) 생성되었거나 이미 존재합니다."
+database-closed: "데이터베이스 연결 풀이 닫혔습니다."

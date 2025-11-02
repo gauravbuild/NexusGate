@@ -1,0 +1,45 @@
+# NexusGate Plugin Configuration
+
+# General Plugin Settings
+general:
+  enabled: true
+  chat-prefix: "&8[&9NexusGate&8] &7" # Prefix for all plugin messages
+
+# Database Configuration
+database:
+  type: "MySQL" # Only MySQL/MariaDB is supported currently
+  host: "localhost" # Your database host (e.g., localhost, 127.0.0.1, sql.yourhost.com)
+  host-ip-fallback: "" # Optional: A direct IP address to use if hostname resolution fails (e.g., 192.168.1.100)
+  port: 3306 # Your database port (default for MySQL is 3306)
+  database: "nexusgate" # The name of the database
+  username: "user" # Your database username
+  password: "pass" # Your database password
+
+# Synchronization Settings
+sync:
+  on-join: true # Synchronize player data when they join the server
+  on-quit: true # Synchronize player data when they quit the server
+  on-world-change: true # Synchronize player data when they change worlds
+  exempt-worlds: # Worlds where synchronization will be skipped
+    - "world_pvp"
+    - "world_creative"
+  data-types: # Control which player data types are synchronized
+    inventory: true
+    enderchest: true
+    health: true
+    food: true
+    level: true
+    experience: true # Total experience points
+    effects: true # Potion effects
+    vault-balance: true # Requires Vault plugin
+
+# GUI Settings
+gui:
+  editor-title: "&8&l:: &9&lNexus Core - Player Data &8&l::"
+  profile-title: "&8&l:: &9&lProfile of %player% &8&l::"
+  confirm-reset-title: "&4&lConfirm Data Wipe"
+
+# Messaging Settings
+messages:
+  send-sync-success: true # Send a success message after successful sync
+  send-sync-skip-world: true # Send a message when sync is skipped due to exempt world

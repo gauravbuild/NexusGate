@@ -1,0 +1,13 @@
+# Maven output
+/target/
+
+# IDE files (IntelliJ/VS Code)
+.idea/
+*.iml
+.vscode/
+
+# Plugin files
+*.jar
+
+# Local configuration files
+/plugins/ 

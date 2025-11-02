@@ -1,0 +1,5 @@
+plugin-enabled: "NexusGate был включен!"
+plugin-disabled: "NexusGate был отключен!"
+database-initialized: "Пул подключений к базе данных инициализирован."
+table-created: "Таблица '%s' создана или уже существует."
+database-closed: "Пул подключений к базе данных закрыт."

@@ -1,0 +1,5 @@
+plugin-enabled: "NexusGate har aktiverats!"
+plugin-disabled: "NexusGate har inaktiverats!"
+database-initialized: "Databasanslutningspoolen har initierats."
+table-created: "Tabellen '%s' har skapats eller finns redan."
+database-closed: "Databasanslutningspoolen har stängts."

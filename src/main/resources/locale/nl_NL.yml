@@ -1,0 +1,5 @@
+plugin-enabled: "NexusGate is ingeschakeld!"
+plugin-disabled: "NexusGate is uitgeschakeld!"
+database-initialized: "Database verbindingspool geïnitialiseerd."
+table-created: "Tabel '%s' is aangemaakt of bestaat al."
+database-closed: "Database verbindingspool gesloten."

@@ -1,0 +1,27 @@
+# NexusGate Language File - en_US
+
+# General Messages
+plugin-enabled: "&aNexusGate has been enabled!"
+plugin-disabled: "&cNexusGate has been disabled!"
+no-permission: "&cYou do not have permission to use this command."
+
+# Synchronization Messages
+sync-success-load: "&aYour data has been successfully loaded from the database."
+sync-success-save: "&aYour data has been successfully saved to the database."
+sync-success-manual: "&aYour data has been manually synchronized!"
+sync-skip-world: "&eYou are in a sync-exempt world. Data synchronization is skipped."
+sync-in-progress: "&eSynchronization in progress..."
+
+# Error Messages
+error-sync-fail: "&cFailed to load your data. Please try again later or contact an administrator."
+error-database: "&cAn error occurred while accessing the database. Please check the console for details."
+error-player-not-found: "&cPlayer &b%s &cnot found. Please check the name and try again."
+error-data-not-found: "&cNo data found for player &b%s&c."
+error-command-usage: "&cInvalid command usage. Please use &e/%s&c."
+
+# Admin & GUI Messages
+editor-prompt-player-name: "&ePlease enter the name of the player you want to search for in chat:"
+editor-searching-player: "&eSearching for player &b%s&e..."
+reset-confirm-gui-title: "&4&lConfirm Data Wipe"
+reset-success-admin: "&aPlayer data for &b%s &ahas been successfully reset."
+reset-cancelled-admin: "&eData reset for &b%s &ehas been cancelled."

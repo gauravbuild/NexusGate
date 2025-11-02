@@ -1,0 +1,29 @@
+name: NexusGate
+version: 1.0.0
+main: com.gauravbuilds.nexusgate.NexusGate
+api-version: '1.21'
+
+commands:
+  nexus:
+    description: Base command for NexusGate plugin.
+    usage: /<command>
+    aliases: [ng]
+    permission: nexusgate.command.base
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  nexusgate.sync:
+    description: Allows players to manually synchronize their data.
+    default: op
+  nexusgate.admin.base:
+    description: Allows access to the base admin commands.
+    default: op
+  nexusgate.admin.editor:
+    description: Allows access to the data editor GUI.
+    default: op
+  nexusgate.admin.reset:
+    description: Allows players to reset other player's data.
+    default: op
+  nexusgate.command.base:
+    description: Allows access to the base /nexus command.
+    default: true
